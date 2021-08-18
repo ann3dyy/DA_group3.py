@@ -13,4 +13,6 @@ import requests
 url = "http://localhost:8080/"
 url_used = print("url:", url) #this will be the url of the website we will be using
 
-
+testing = "https://www.youtube.com/"
+t = requests.get(testing)
+print(r.text)
