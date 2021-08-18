@@ -9,7 +9,8 @@ print("this better work or im gonna cry")
 
 #ill be following lab 10a word for word and see if it works pls work
 import socket;
+import requests
 url = "http://localhost:8080/"
 url_used = print("url:", url) #this will be the url of the website we will be using
 
-s = socket.get(url)
+
