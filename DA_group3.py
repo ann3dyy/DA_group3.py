@@ -12,7 +12,12 @@ import socket;
 import requests
 url = "http://localhost:8080/"
 url_used = print("url:", url) #this will be the url of the website we will be using
+# uh ignore these^ for a sec
 
+#testing to see if lab 10b works for this
 testing = "https://www.youtube.com/"
 t = requests.get(testing)
-print(r.text)
+print(t.text)
+
+print("Status Code: ")
+print("\t *", t.status_code)
