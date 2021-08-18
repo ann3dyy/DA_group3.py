@@ -21,7 +21,7 @@ print(t.text)
 
 print("Status Code: ")
 print("\t *", t.status_code)
-if t.status_code is 200:
+if t.status_code == 200:
   print("Translation: 200 = OK")
   
 
