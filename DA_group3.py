@@ -28,5 +28,5 @@ h = requests.head(url)
 print("HEADER:")
 print("*******************************************")
 for x in h.headers:
-  print("\t *"; x, ":", h.headers[x])
+  print("\t *", x, ":", h.headers[x])
 print("*******************************************")
