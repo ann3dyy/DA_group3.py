@@ -24,4 +24,9 @@ print("\t *", t.status_code)
 if t.status_code == 200:
   print("Translation: 200 = OK")
   
-
+h = requests.head(url)
+print("HEADER:")
+print("*******************************************")
+for x in h.headers:
+  print("\t *"; x, ":", h.headers[x])
+print("*******************************************")
