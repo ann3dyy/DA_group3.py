@@ -41,7 +41,7 @@ headers = {
   "User-Agent" : "Mobile"
 }
 testing2 = "http://httpbin.org/headers"
-rh = headers.get(testing2, headers=headers)
+rh = requests.get(testing2, headers=headers)
 print(rh.text)
 
 
