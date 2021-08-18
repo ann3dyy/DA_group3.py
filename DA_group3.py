@@ -7,11 +7,9 @@ print("this better work or im gonna cry")
 #we chould do updates everytime we gotta test this so yeah
 #once yalls have seen this imma erase this
 
-#ill be following lab 10a word for word and see if it works pls work 
-import requests
+#ill be following lab 10a word for word and see if it works pls work
 import socket;
 url = "http://localhost:8080/"
-url_used = print("url: http://localhost:8080/") #this will be the url of the website we will be using
-r = requests.get(url)
+url_used = print("url:", url) #this will be the url of the website we will be using
 
-
+s = socket.get(url)
