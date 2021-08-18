@@ -7,4 +7,6 @@ print("this better work or im gonna cry")
 #we chould do updates everytime we gotta test this so yeah
 #once yalls have seen this imma erase this
 
+import webrequests as wr
+url_used = print("url: http://localhost:8080/")
 
