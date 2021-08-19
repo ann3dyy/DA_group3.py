@@ -31,6 +31,13 @@ while True:
         print("\t *", t.status_code)
         if t.status_code == 200:
             print("Translation: 200 = OK")
+            
+            if t.status_code == t.status_code:
+            n1 = input("Would you like to view anything else?(Y/N): ")
+            if n1 == "y" and "Y":
+                pass
+            if n1 == "n" and "N":
+                break
 
             
 # testing for website header
@@ -43,6 +50,15 @@ while True:
         for x in h.headers:
             print("\t *", x, ":", h.headers[x])
         print("*******************************************")
+        
+         n1 = input("Would you like to view anything else?(Y/N): ")
+            if n1 == "y" and "Y":
+                pass
+            if n1 == "n" and "N":
+                break
+        
+  
+   
 
         
 # testing for mobile for header user-agent
@@ -53,6 +69,11 @@ while True:
         testing2 = "http://httpbin.org/headers"
         rh = requests.get(testing2, headers=headers)
         print(rh.text)
+         n1 = input("Would you like to view anything else?(Y/N): ")
+            if n1 == "y" and "Y":
+                pass
+            if n1 == "n" and "N":
+                break
 
         
     else:
