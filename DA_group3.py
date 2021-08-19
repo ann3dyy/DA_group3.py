@@ -33,10 +33,10 @@ while True:
             print("Translation: 200 = OK")
             
             if t.status_code == t.status_code:
-                n1 = input("Would you like to view anything else?(Y/N): ")
-                if n1 == "y" and "Y":
+                n2 = input("Would you like to view anything else?(Y/N): ")
+                if n2 == "y" and "Y":
                     pass
-                if n1 == "n" and "N":
+                if n2 == "n" and "N":
                     break
 
             
@@ -51,10 +51,10 @@ while True:
             print("\t *", x, ":", h.headers[x])
         print("*******************************************")
         
-        n1 = input("Would you like to view anything else?(Y/N): ")
-           if n1 == "y" and "Y":
+        n3 = input("Would you like to view anything else?(Y/N): ")
+           if n3 == "y" and "Y":
                pass
-           if n1 == "n" and "N":
+           if n3 == "n" and "N":
                break
         
   
@@ -69,10 +69,10 @@ while True:
         testing2 = "http://httpbin.org/headers"
         rh = requests.get(testing2, headers=headers)
         print(rh.text)
-        n1 = input("Would you like to view anything else?(Y/N): ")
-           if n1 == "y" and "Y":
+        n4 = input("Would you like to view anything else?(Y/N): ")
+           if n4 == "y" and "Y":
                pass
-           if n1 == "n" and "N":
+           if n4 == "n" and "N":
                break
 
         
