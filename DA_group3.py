@@ -51,11 +51,11 @@ while True:
             print("\t *", x, ":", h.headers[x])
         print("*******************************************")
         
-         n1 = input("Would you like to view anything else?(Y/N): ")
-            if n1 == "y" and "Y":
-                pass
-            if n1 == "n" and "N":
-                break
+        n1 = input("Would you like to view anything else?(Y/N): ")
+           if n1 == "y" and "Y":
+               pass
+           if n1 == "n" and "N":
+               break
         
   
    
@@ -69,11 +69,11 @@ while True:
         testing2 = "http://httpbin.org/headers"
         rh = requests.get(testing2, headers=headers)
         print(rh.text)
-         n1 = input("Would you like to view anything else?(Y/N): ")
-            if n1 == "y" and "Y":
-                pass
-            if n1 == "n" and "N":
-                break
+        n1 = input("Would you like to view anything else?(Y/N): ")
+           if n1 == "y" and "Y":
+               pass
+           if n1 == "n" and "N":
+               break
 
         
     else:
