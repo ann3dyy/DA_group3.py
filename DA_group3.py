@@ -4,7 +4,11 @@ import requests
 
 
 #testing my option system
-print("Welcome to DA_group3", "\t *", "Option 1) Perform the get request on website", "\t *", "Option 2) View the status code", "\t *", "Option 3) View website header", "\t *", "Option 4) View modified header User-Agent")
+print("Welcome to DA_group3")
+print("\t *", "Option 1) Perform the get request on website")
+print("\t *", "Option 2) View the status code")
+print("\t *", "Option 3) View website header")
+print("\t *", "Option 4) View modified header User-Agent")
 answer = input("What would you like to see? Option: ")
 if answer == "1":
     testing = "https://www.youtube.com/"
