@@ -13,6 +13,8 @@ if answer == "1":
 
 # testinng for OK return status
 if answer == "2":
+    testing = "https://www.youtube.com/"
+    t = requests.get(testing)
     print("Status Code: ")
     print("\t *", t.status_code)
     if t.status_code == 200:
@@ -20,6 +22,8 @@ if answer == "2":
 
 # testing for website header
 if answer == "3":
+    testing = "https://www.youtube.com/"
+    t = requests.get(testing)
     h = requests.head(testing)
     print("HEADER:")
     print("*******************************************")
@@ -40,6 +44,4 @@ else:
     if answer != "1" and answer != "2" and answer != "3" and answer != "4":
         print("answer undefined. please try again.")
         
-
-
 
