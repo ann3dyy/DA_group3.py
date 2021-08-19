@@ -39,7 +39,7 @@ if answer == "4":
 else:
     if answer != "1" and answer != "2" and answer != "3" and answer != "4":
         print("answer undefined. please try again.")
-        start()
+        
 
 
 
