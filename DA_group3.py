@@ -33,11 +33,11 @@ while True:
             print("Translation: 200 = OK")
             
             if t.status_code == t.status_code:
-            n1 = input("Would you like to view anything else?(Y/N): ")
-            if n1 == "y" and "Y":
-                pass
-            if n1 == "n" and "N":
-                break
+                n1 = input("Would you like to view anything else?(Y/N): ")
+                if n1 == "y" and "Y":
+                    pass
+                if n1 == "n" and "N":
+                    break
 
             
 # testing for website header
