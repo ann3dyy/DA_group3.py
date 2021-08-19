@@ -52,10 +52,10 @@ while True:
         print("*******************************************")
         
         n3 = input("Would you like to view anything else?(Y/N): ")
-           if n3 == "y" and "Y":
-               pass
-           if n3 == "n" and "N":
-               break
+        if n3 == "y" and "Y":
+            pass
+        if n3 == "n" and "N":
+            break
         
   
    
@@ -70,14 +70,16 @@ while True:
         rh = requests.get(testing2, headers=headers)
         print(rh.text)
         n4 = input("Would you like to view anything else?(Y/N): ")
-           if n4 == "y" and "Y":
-               pass
-           if n4 == "n" and "N":
-               break
+        if n4 == "y" and "Y":
+            pass
+        if n4 == "n" and "N":
+            break
 
         
     else:
         if answer != "1" and answer != "2" and answer != "3" and answer != "4":
             print("answer undefined. please try again.")
+
+
 
 
