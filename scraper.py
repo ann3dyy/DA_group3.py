@@ -1,6 +1,5 @@
 import scrapy
 from scrapy.http.request import Request
-import unittest
 
 
 class BrickSetSpider(scrapy.Spider):
